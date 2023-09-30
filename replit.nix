@@ -1,6 +1,7 @@
 { pkgs }: {
-    deps = [
-        pkgs.clojure
-        pkgs.clojure-lsp
-    ];
+  deps = [
+    pkgs.clojure
+    pkgs.clojure-lsp
+    pkgs.leiningen
+  ];
 }

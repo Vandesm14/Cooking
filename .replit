@@ -1,4 +1,4 @@
-run = "clojure -M main.clj -r"
+run = "lein run"
 
 entrypoint = "main.clj"
 
